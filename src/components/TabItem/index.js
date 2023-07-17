@@ -1,7 +1,7 @@
 import './index.css'
 
 const TabItem = props => {
-  const {tabDetails, setActiveTabId, isActive} = props
+  const {tabsDetails, setActiveTabId, isActive} = props
   const {tabId, displayText} = tabDetails
   const onClickTabItem = () => {
     setActiveTabId(tabId)
